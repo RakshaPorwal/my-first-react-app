@@ -62,9 +62,7 @@ body {
   color: #666666;
   text-align: left;
   background-color: #fff;
-  padding-top: 0px; /* Adjust depending on your navbar height */
 }
-
 
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
@@ -9865,4 +9863,15 @@ a.text-dark:hover, a.text-dark:focus {
   margin: 0;
   padding: 0;
   list-style-type: none;
+}
+
+.container{
+  text-align: center;
+}
+
+.form-select{
+  size-adjust: 150px ,150px;
+  background-color:black;
+  color: aliceblue;
+  text-align: left;
 }
