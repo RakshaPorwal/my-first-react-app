@@ -1,0 +1,114 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* 🔹 Header Section */
+.header {
+  background: url('/public/img/header2.jpeg') center/cover no-repeat;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.header p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+/* 🔹 Banner Section */
+.banner {
+  background: url('/public/img/header.png') center/cover no-repeat;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.banner h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+/* 🔹 Navbar */
+.navbar {
+  background: #0d6efd;
+  padding: 15px 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  color: #ffc107;
+}
+
+/* 🔹 Footer */
+.footer {
+  background: #212529;
+  color: #ddd;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer a {
+  color: #ffc107;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: white;
+}
+.card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.btn-info {
+  background-color: #17a2b8;
+  border: none;
+}
+.alert-info {
+  background-color: #d1ecf1;
+  border-left: 6px solid #17a2b8;
+  color: #0c5460;
+}
+
+
+/* 🔹 Responsive */
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 2rem;
+  }
+  .banner h2 {
+    font-size: 1.8rem;
+  }
+}
